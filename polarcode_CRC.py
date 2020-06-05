@@ -1,8 +1,8 @@
-from py5Gpolar import Construct, Encoder, AWGN
+from polarcodes5G.py5Gpolar import Construct, Encoder, AWGN
 import numpy as np
 from math import *
 from sympy.polys.domains import ZZ
-from sympy.polys.galoistools import gf_div, gf_rem
+from sympy.polys.galoistools import gf_div
 from QueryPerformanceCounter import *
 
 
