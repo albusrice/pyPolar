@@ -6,7 +6,7 @@ from polarcodes5G import *
 if __name__ == '__main__':
     for _ in range(1):
         snr = 4
-        n = 16
+        n = 1024
         k = n // 2
         performance_counter = QueryPerformanceCounter()
         myPC = Construct(n, k)
